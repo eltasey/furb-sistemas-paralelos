@@ -28,6 +28,8 @@ public class Window extends JFrame implements ServerConnectionListener {
 		window.addController(serverCtrl);
 
 		EventQueue.invokeLater(() -> window.setVisible(true));
+		
+		//teste
 	}
 
 	JButton btOpenConnection;
